@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-image: url('./images/Conheca-a-Contabilidade-Digital-1.jpg');
+    height: 100vh;
+}
+
+header {
+    color: white;
+    padding-top: 25px;
+    padding-left: 35px;
+    
+}
+.cabecalho {
+    font-size: 24px;
+    display: inline-block;
+
+}
+.links {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 35px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 58px;
+    color: #ffffff;
+    position: relative;
+    top: 280px;
+    margin-left: 35px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #ffffff;
+    border-radius: 9px;
+    float: right;
+    padding: 20px;
+    margin-right: 120px;
+    position: relative;
+    bottom: 82px;
+}
+.show-form {
+   opacity: 1;
+}
+
+textarea {
+    display: block;
+    width: 300px;
+    height: 80px;
+    padding-left: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-title {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    display: block;
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 700;
+
+}
+
+button{
+    width: 300px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #40BB15;
+    font-weight: 700;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+#our-services {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+   
+}
+
+.title-cards {
+    background-color: #219653;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.box-center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    background-color: #00095d;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+#title-about {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.para-about {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
